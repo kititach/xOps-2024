@@ -31,6 +31,6 @@
   * Create User & Group
   * Setup VPN 
   * Create Policy (interface, VPN)
-### SW
+### SW (comming soon)
 
-### Server
+### Server (comming soon)
