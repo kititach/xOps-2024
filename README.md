@@ -31,7 +31,7 @@
   * Create User & Group
   * Setup VPN 
   * Create Policy (interface, VPN)
-### SW (comming soon)
+### SW
   * sw1 (service)
   * Reset default
   * Update Hardware (for new product)
