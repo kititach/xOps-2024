@@ -33,7 +33,7 @@
   * Create Policy (interface, VPN)
 ### SW
   * sw1 (service)
-  * Reset default
+    * Reset default
   * Update Hardware (for new product)
   * Change ip, host
   * Create trunk port server1(1,2), server2(3,4), server3(5,6)
