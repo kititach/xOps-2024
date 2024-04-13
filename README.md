@@ -34,16 +34,16 @@
 ### SW
   * sw1 (service)
     * Reset default
-  * Update Hardware (for new product)
-  * Change ip, host
-  * Create trunk port server1(1,2), server2(3,4), server3(5,6)
-  * Create Vlan 801, 802, 803, 804
+    * Update Hardware (for new product)
+    * Change ip, host
+    * Create trunk port server1(1,2), server2(3,4), server3(5,6)
+    * Create Vlan 801, 802, 803, 804
 
   * sw2 (mgmt)
-  * Reset default
-  * Update Hardware (for new product)
-  * Change ip, host
-  * Create trunk port server1(1,2), server2(3,4), server3(5,6)
-  * Create Vlan 851, 852
+    * Reset default
+    * Update Hardware (for new product)
+    * Change ip, host
+    * Create trunk port server1(1,2), server2(3,4), server3(5,6)
+    * Create Vlan 851, 852
 
 ### Server (comming soon)
