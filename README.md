@@ -47,3 +47,9 @@
     * Create Vlan 851, 852
 
 ### Server (comming soon)
+
+- corosync
+- kvm (lernel-base virtual machine
+- LXC (linux container)
+- Linux bridge
+- Openvswitch
