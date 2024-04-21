@@ -52,14 +52,10 @@
 
 ### corosync
 
- 
-###kvm (lernel-base virtual machine
+### kvm (lernel-base virtual machine)
 
+### LXC (linux container)
 
-###LXC (linux container)
+### Linux bridge
 
-
-###Linux bridge
-
-
-###Openvswitch
+### Openvswitch
