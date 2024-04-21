@@ -46,10 +46,16 @@
     * Create trunk port server1(1,2), server2(3,4), server3(5,6)
     * Create Vlan 851, 852
 
-### Server (comming soon)
+### Server
+  * Setup BIOS, IDRAC, HDD
+  * Install OS
 
-- corosync
-- kvm (lernel-base virtual machine
-- LXC (linux container)
-- Linux bridge
-- Openvswitch
+### corosync
+ 
+###kvm (lernel-base virtual machine
+
+###LXC (linux container)
+
+###Linux bridge
+
+###Openvswitch
