@@ -10,6 +10,10 @@
 ![week2-1](https://github.com/kititach/xOps-2024/assets/48780839/14c8c153-85b5-41f1-ba14-3753875cd9ea)
 ![week2-2](https://github.com/kititach/xOps-2024/assets/48780839/ddcf4f1e-ebbd-4460-b91f-2111f7ef2c5b)
 
+## Diagram New
+![Untitled Diagram drawio](https://github.com/kititach/xOps-2024/assets/48780839/ebf12a08-a1f3-4515-a0ca-e030bf15a6e9)
+
+
 ## Lab Equipment
 * Fortinet 60E
   * [datasheet](https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-60E.pdf)
