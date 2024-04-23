@@ -53,12 +53,15 @@
   * Setup BIOS, IDRAC, HDD
   * Install OS
 
-### corosync
+### coming soon
+-------------------------------------------------
+- corosync
+- kvm (lernel-base virtual machine)
+- LXC (linux container)
+- Linux bridge
+- Openvswitch
 
-### kvm (lernel-base virtual machine)
-
-### LXC (linux container)
-
-### Linux bridge
-
-### Openvswitch
+- LVM , disk partion
+- OVS bond, bridge , inPort
+- proxmox build cluster
+- ceph osd, mon, mds , RBD , cephFS
