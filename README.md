@@ -11,7 +11,7 @@
 ![week2-2](https://github.com/kititach/xOps-2024/assets/48780839/ddcf4f1e-ebbd-4460-b91f-2111f7ef2c5b)
 
 ## Diagram New
-
+![xOps_Dia02_no_ip](https://github.com/kititach/xOps-2024/assets/48780839/1f8ee550-0da4-48e4-8959-54914d2a3570)
 
 ## Lab Equipment
 * Fortinet 60E
