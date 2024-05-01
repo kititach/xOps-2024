@@ -116,6 +116,14 @@ OVS (Open vSwitch) bond, bridge, และ inPort เป็นส่วนสำ
 
 proxmox build cluster
 ---
+การสร้าง Proxmox cluster เป็นกระบวนการที่เกี่ยวข้องกับการรวมกันของหลายๆ เครื่อง Proxmox VE เข้าด้วยกันเพื่อให้สามารถทำงานร่วมกันเป็นแคลัสเซิร์ฟเวอร์ เพื่อเสถียรภาพในการทำงานและการขยายความสามารถของระบบ ซึ่ง Proxmox VE เป็นแพลตฟอร์มเสมือนเซิร์ฟเวอร์ (virtualization platform) ที่ใช้เทคโนโลยีและโปรแกรมฟรีอะคลามฟอร์ม (open-source platform) ที่ช่วยให้สามารถจัดการและสร้างเครื่องเสมือน (virtual machine) และคอนเทนเนอร์ (containers) ได้อย่างมีประสิทธิภาพและสะดวกสบาย
+1. ติดตั้ง Proxmox VE บนเครื่องเซิร์ฟเวอร์ทุกเครื่องที่จะใช้งาน จาก https://www.proxmox.com/en/downloads เป็นไฟล์ ISO Installer
+2. Setup IP address, hostname, DNS, gateway ตามที่ได้ออกแบบไว้
+3. Update ตัว Proxmox ตามรูปแบบที่ต้องการ (เสียเงิน หรือ ฟรี) , ตั้งค่า OSV ใน Network
+4. สร้าง Cluster สำหรับโหนดตัวที่ 1 แล้วให้ โหนด 2, 3, 4 Join เข้ามา ตาม IP ของโหนดจัวที่ 1 (พร้อมป้อนรหัสผ่าน)
+5. ติดตั้ง ceph สำหรับทำ Disk OSD (รวมพื้นที่สำหรับ Cluster) และ cephFS (สำหรับเก็บ OS)
+6. ดาวโหลด OS สำหรับ VM หรือ CT ลงให้พื้นที่ cephFS
+7. ทดลองสร้าง Guest , VM (สามารถออก internet ได้)
 
 ceph osd, mon, mds , RBD , cephFS
 ---
