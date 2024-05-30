@@ -1,6 +1,7 @@
 # Image download [amd64, qcow2]
 - [Ubuntu Cloud Images](https://cloud-images.ubuntu.com/)
 - [Debian Cloud Images](https://cloud.debian.org/images/cloud/)
+- [Fedora Cloud Images](https://fedoraproject.org/cloud/download)
 
 # Step
 >> shell to proxmox node
@@ -51,7 +52,8 @@ sudo tailscale up --advertise-routes=10.85.1.0/24,10.80.1.0/24 --reset --accept-
 ## Post Install/clone
 - Qemu agent
 ```
-sudo apt update ; sudo apt install qemu-guest-agent -y
+sudo apt update
+sudo apt install qemu-guest-agent -y
 sudo systemctl restart qemu-guest-agent
 sudo systemctl status qemu-guest-agent
 ```
